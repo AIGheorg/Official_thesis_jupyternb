@@ -8,4 +8,4 @@ las2las -i pc.LAZ -drop-z-below [antenna-height] -o pc-height-filter.LAZ
 Then create a lasindex file:
 lasindex -i pc-height-filter.LAZ
 
-Modify in the second block of the notebook the user input with the data of your receiver and then run all the blocks.
+Modify in the second block of the notebook the user input with the data of your receiver and then run all the blocks. Modify also in the 17th block the moment of time for your measurement.
