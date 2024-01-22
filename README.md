@@ -8,4 +8,6 @@ las2las -i pc.LAZ -drop-z-below [antenna-height] -o pc-height-filter.LAZ
 Then create a lasindex file:
 lasindex -i pc-height-filter.LAZ
 
-Modify in the second block of the notebook the user input with the data of your receiver and then run all the blocks. Also modify the filter_pointcloud function and insert in com_string1 the point cloud you are using. Modify also in the 17th block the moment of time for your measurement.
+Modify in the second block of the notebook the user input with the data of your receiver and then run all the blocks. Also modify the filter_pointcloud function and insert in com_string1 the point cloud you are using. Modify also in the 17th block (main block) the moment of time for your measurement.
+
+The rest after the main block is some testing to understand the data and the plotting of the DoP values - it is not necessary to run them.
